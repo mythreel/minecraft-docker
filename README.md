@@ -14,6 +14,13 @@ For Linux use:
 
 ```docker run -d --name=minecraft -p 25565:25565 -v /mnt/minecraft:/data minecraft_docker```
 
+or
+
+```docker run -d --name=minecraft -p 25565:25565 -v /mnt/minecraft:/data mythreel/minecraft-server```
 For Windows use:
 
 ```docker run -d --name=minecraft -p 25565:25565 -v "C:\Users\mythreel\Documents\minecraft":/data minecraft_docker```
+
+or
+
+```docker run -d --name=minecraft -p 25565:25565 -v "C:\Users\mythreel\Documents\minecraft":/data mythreel/minecraft-server```
