@@ -5,6 +5,7 @@ Basic Minecraft Server Docker Image
 ```docker build -t minecraft_docker .```
 # Usage
 For Linux use:
+
 ```docker run -d --name=minecraft -p 25565:25565 -v /mnt/minecraft:/data minecraft_docker```
 
 For Windows use:
