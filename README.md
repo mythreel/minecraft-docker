@@ -3,6 +3,7 @@ Basic Minecraft Server Docker Image
 
 # Build
 First Clone this repo
+
 ```git clone https://github.com/mythreel/minecraft-docker.git .```
 
 Next lets build the actual image
